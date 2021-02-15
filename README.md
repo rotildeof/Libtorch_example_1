@@ -5,11 +5,11 @@ libtorch (Pytorch の c++ API) の使い方がわからなかったので、忘�
 
 注意
 --
-2021年2月現在、libtorch 公式サイト (https://pytorch.org/cppdocs/)において
+2021年2月現在、libtorch 公式サイト (https://pytorch.org/cppdocs/) において
 
-```
+
 At the moment, the C++ API should be considered “beta” stability; we may make major breaking changes to the backend in order to improve the API, or in service of providing the Python interface to PyTorch, which is our most stable and best supported interface.
-```
+
 との記載があり、現行のlibtorchは今後大きく変更される可能性が高いと見た方がよさそうです。ということで、この記事もいつかはほとんど参考にならなくなるかもしれません。とはいえ、今のlibtorchもいい感じに使いやすく、PyTorchの方との書き方も似ているので、使い方を知っておいて損はないと思います。
 
 # 説明
